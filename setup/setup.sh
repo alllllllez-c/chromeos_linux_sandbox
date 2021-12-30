@@ -81,3 +81,9 @@ EOF
 # 確認用(それぞれ公開鍵を登録してからどうぞ)
 # ssh -T git@github.com
 
+# vim plugins
+# Deno
+curl -fsSL https://deno.land/x/install/install.sh | sh
+# Vim-plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# run :PlugInstall on Vim.
